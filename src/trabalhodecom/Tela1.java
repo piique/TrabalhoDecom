@@ -18,7 +18,8 @@ public class Tela1 extends javax.swing.JFrame {
     int x = 0;
     int y = 0;
     int c = 1;
-int op=0;
+    int op = 0;
+
     /**
      * new Reminder(3); jButton1.setIcon(new
      * javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
@@ -27,43 +28,28 @@ int op=0;
     public Tela1() {
         initComponents();
     }
-    int i=0;
-/*
+    int i = 0;
+
+   
     public void funcao() {
-
+            c=0;
         if (x != y) {
-            i=1;
-            op=y;
-                if(x == 1) {
-                    jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(y == 1){
-                    jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(x == 2) {
-                    jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(y == 2){
-                    jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(x == 3) {
-                    jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(y == 3){
-                    jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(x == 4) {
-                    jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(y == 4){
-                    jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(x == 5) {
-                    jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(y == 5){
-                    jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(x == 6) {
-                    jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }if(y == 6){
-                    jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-                }
-            
-        }
-       c=0;
-    } */
-
+                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                
+    } 
+    }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -260,195 +246,58 @@ int op=0;
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         x = 1;
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if (c < 2) {
-            c++;
-        } else{
-            
-            if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
+        if(c >+ 2) {
+                funcao();
+            c = 0;
+        }else{
+          c++;
         }
-            c=0;
-        }
-        
+
 
     }//GEN-LAST:event_jButton1ActionPerformed
-
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         x = 2;
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img2.2.png")));
-        if (c < 2) {
-            c++;
+         if(c >+ 2) {
+                funcao();
+            c = 0;
         }else{
-            if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
+          c++;
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         x = 3;
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img3.3.png")));
-        if (c < 2) {
-            c++;
-        } else {
-            if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
+        if(c >+ 2) {
+                funcao();
+            c = 0;
+        }else{
+          c++;
         }
-            c=0;
-        }
-        
+
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         y = 3;
         jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img3.4.png")));
-        if (c < 2) {
-            c++;
-        } else {
-            if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
+        if(c >+ 2) {
+                funcao();
+            c = 0;
+        }else{
+          c++;
         }
-            c=0;
-        }
+        
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
         y = 1;
         jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if (c < 2) {
-            c++;
-        } else {
-            if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
-            
+        if(c >+ 2) {
+                funcao();
+            c = 0;
+        }else{
+          c++;
         }
 
     }//GEN-LAST:event_jButton11ActionPerformed
@@ -456,266 +305,77 @@ int op=0;
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         y = 2;
         jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img2.5.png")));
-        if (c < 2) {
-            c++;
-        } else {
-          if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
+         if(c >+ 2) {
+                funcao();
+            c = 0;
+        }else{
+          c++;
         }
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         x = 4;
         jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img4.6.png")));
-        if (c < 2) {
-            c++;
-        } else {
-          if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
+        if(c >+ 2) {
+          funcao();
+            c = 0;
+        }else{
+          c++;
         }
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         y = 4;
         jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img4.7.png")));
-        if (c < 2) {
-            c++;
-        } else {
-         if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
+        if(c >+ 2) {
+          funcao();
+            c = 0;
+        }else{
+          c++;
         }
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
         x = 6;
         jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img6.12.png")));
-        if (c < 2) {
-            c++;
-        } else {
-           if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
+         if(c >+ 2) {
+          funcao();
+            c = 0;
+        }else{
+          c++;
         }
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
         y = 6;
         jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img6.9.png")));
-        if (c < 2) {
-            c++;
-        } else {
-            if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
+        if(c >+ 2) {
+          funcao();
+            c = 0;
+        }else{
+          c++;
         }
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         x = 5;
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img5.8.png")));
-        if (c < 2) {
-            c++;
-        } else {
-         if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
+        if(c >+ 2) {
+          funcao();
+            c = 0;
+        }else{
+          c++;
         }
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         y = 5;
         jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img5.10.png")));
-        if (c < 2) {
-            c++;
-        } else {
-          if(x!=y){
-                
-            if(x==1){
-                jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==2){
-                 jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==3){
-                 jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==5){
-                 jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(x==6){
-                 jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==1){
-                 jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==2){
-                 jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==3){
-                 jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==4){
-                 jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==5){
-                 jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }if(y==6){
-                 jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
-            }
-        }
-            c=0;
+         if(c >+ 2) {
+          funcao();
+            c = 0;
+        }else{
+          c++;
         }
     }//GEN-LAST:event_jButton10ActionPerformed
 
