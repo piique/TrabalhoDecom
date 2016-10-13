@@ -17,22 +17,52 @@ public class Tela1 extends javax.swing.JFrame {
 
     int x = 0;
     int y = 0;
-    int c = 0;
+    int c = 1;
 
     /**
+     * new Reminder(3); jButton1.setIcon(new
+     * javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
      * Creates new form Tela1
      */
     public Tela1() {
         initComponents();
     }
 
-        public void funcao() {
-            if (x != y) {
-                new Reminder(3);
-                jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+    public void funcao() {
+
+        if (x != y) {
+            for (int i = 0; i <= 12; i++) {
+                if (x == i || y == i) {
+                    jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                    
+                    jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                }
+                if (x == i || y == i) {
+                    jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                    jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                }
+                if (x == i || y == i) {
+                    jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                    jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                }
+                if (x == i || y == i) {
+                    jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                    jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                }
+                if (x == i || y == i) {
+                    jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                    jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                }
+                if (x == i || y == i) {
+                    jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                    jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/logo-decom-celebrations.png")));
+                }
+
             }
-            c = 0;     
+        }
+        c = 0;
     }
+
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -234,124 +264,124 @@ public class Tela1 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        x=1;
+        x = 1;
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
-        
-        
+
+
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        x=2;
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        x = 2;
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img2.2.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-       x=3;
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img2.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        x = 3;
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img3.3.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        y=3;
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img2.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        y = 3;
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img3.4.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        y=1;
+        y = 1;
         jButton11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){ 
-            c++;   
-        }else{
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
-        
+
     }//GEN-LAST:event_jButton11ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        y=2;
-        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        y = 2;
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img2.5.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        x=4;
-        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        x = 4;
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img4.6.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        y=4;
-        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        y = 4;
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img4.7.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        x=5;
-        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        x = 5;
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img6.12.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        y=5;
-        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        y = 5;
+        jButton9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img6.9.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        x=6;
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        x = 6;
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img5.8.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        y=6;
-        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img1.jpg")));
-        if(c<2){
-            c++;   
-        }else{
+        y = 6;
+        jButton10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/img5.10.png")));
+        if (c < 2) {
+            c++;
+        } else {
             funcao();
         }
     }//GEN-LAST:event_jButton10ActionPerformed
