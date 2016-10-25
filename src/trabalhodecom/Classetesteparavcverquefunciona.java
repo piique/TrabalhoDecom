@@ -5,9 +5,5 @@
  */
 package trabalhodecom;
 
-/**
- *
- * @author lenovo user
- */
 public class Classetesteparavcverquefunciona {
 }
